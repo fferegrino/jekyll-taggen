@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>Tag index</h1>
+<ul>
+	{% for tag in page.tags %}
+		<li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+	{% endfor %}
+</ul>
